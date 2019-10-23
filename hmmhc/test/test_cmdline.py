@@ -35,7 +35,7 @@ def testCommandLine():
     assert out == expectedCsvOutput
     sys.stdout = sysStdout
 
-# command line input and output to stdout
+# command line input from file and output to file
 @raises(SystemExit)
 def testCommandLineCsv():
 
