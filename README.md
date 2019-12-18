@@ -12,8 +12,13 @@ $ pip install git+https://github.com/artyomovlab/hmmhc#egg=hmmhc
 ```
 
 ## Command line example
+Input from command line and output to stout:
 ```
-$ hmmhc-predict --allele H2-IAb --peptides VNGYNEAIVHVVETP IKSEHPGLSIGDVAK KESVVSGKAVPREEL --out predictions.csv
+$ hmmhc-predict --allele H2-IAb --peptides VNGYNEAIVHVVETP IKSEHPGLSIGDVAK KESVVSGKAVPREEL
+```
+Input from csv and output to csv:
+```
+$ hmmhc-predict --allele H2-IAb --input example_input.csv --output output.csv
 ```
 See `hmmhc-predict -h` for further details.
 
