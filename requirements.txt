@@ -4,5 +4,5 @@ numpy==1.16.5
 clr==1.0.3
 coverage==4.5.4
 docutils==0.15.2
-Twisted==19.7.0
+Twisted==22.1.0
 unittest2==1.1.0
