@@ -1,6 +1,6 @@
 setuptools==41.0.1
 pandas==0.24.2
-numpy==1.16.5
+numpy==1.22.0
 clr==1.0.3
 coverage==4.5.4
 docutils==0.15.2
